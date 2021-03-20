@@ -1,13 +1,12 @@
 import './App.css';
-import Events from'./Components/Event'
+import Movies from'./Components/Movies'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <h1>Utskriving av data</h1>
-        <h2>Filmer:</h2>
-        <Events />
+        <Movies />
       </header>
     </div>
   );
